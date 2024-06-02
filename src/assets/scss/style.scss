@@ -1,0 +1,142 @@
+@import 'variables';
+@import 'bootstrap';
+
+body {
+  background: url("../images/bg-light.svg") var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+#app {
+  height: 100vh;
+}
+
+* {
+  outline: none !important;
+}
+
+input::-ms-clear {
+  width: 0;
+  height: 0;
+}
+
+.input-search {
+  @extend .form-control;
+  border-radius: 40px;
+  font-size: 30px;
+  color: $input-color;
+  padding: 15px 35px;
+  width: 100%;
+  line-height: 1;
+  -webkit-appearance: none;
+}
+
+.input-search::-webkit-clear-button {
+  display: none;
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  top: calc(50% - 15px);
+  cursor: pointer;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #999;
+}
+
+.logo {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  color: rgba(255, 255, 255, .5);
+  width: 100%;
+}
+
+.goglapp {
+  width: 400px;
+  display: inline-block;
+}
+
+.extra-filters {
+  @extend .d-flex, .align-items-center, .justify-content-center, .flex-wrap;
+
+  .extra-filter {
+    @extend .d-inline-block;
+    @extend .mb-3, .me-3;
+  }
+}
+
+.dropdown-menu {
+  padding: 0;
+
+  .input-search {
+    @extend .border-0;
+  }
+
+  .dropdown-items {
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &.scrollable {
+      max-height: 250px;
+      overflow-y: scroll;
+    }
+
+    .dropdown-item {
+      cursor: pointer;
+    }
+  }
+}
+
+.size-container {
+  @extend .d-flex, .align-items-center;
+  width: 160px;
+}
+
+.preferences {
+  @extend .d-flex, .align-items-center, .position-absolute, .top-0, .end-0, .p-3;
+
+  .settings {
+    @extend .ms-2;
+    img {
+        width: 24px;
+        height: 24px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+
+  .goglapp {
+    width: calc(100% - 100px);
+  }
+
+  .input-search {
+    font-size: 20px;
+  }
+
+  .logo {
+    left: 0
+  }
+
+  .logo .text {
+    width: 100%;
+  }
+
+}

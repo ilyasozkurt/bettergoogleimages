@@ -60,9 +60,6 @@ input::-ms-clear {
 
 .logo {
   @extend .d-flex, .align-items-center, .justify-content-center, .w-100;
-  img {
-    max-width: 450px;
-  }
 }
 
 .extra-filters {

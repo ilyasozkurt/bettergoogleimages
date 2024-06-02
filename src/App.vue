@@ -86,9 +86,9 @@ settings.save();
     <div class="row h-100 align-items-center justify-content-center">
       <form @submit.prevent="handleSubmit" class="col-12 col-lg-9 col-xl-9">
         <div class="text-center">
-          <a href="/" title="Better Google Image Search" class="logo">
-            <img v-if="settings.isDark" src="./assets/images/logo-light.svg" class="img-fluid mb-4" alt="">
-            <img v-if="!settings.isDark" src="./assets/images/logo-dark.svg" class="img-fluid mb-4" alt="">
+          <a href="/" title="Better Google Image Search" class="logo mb-4">
+            <img v-if="settings.isDark" src="./assets/images/logo-light.svg" width="750" height="225" class="img-fluid" alt="">
+            <img v-if="!settings.isDark" src="./assets/images/logo-dark.svg" width="750" height="225" class="img-fluid" alt="">
           </a>
         </div>
         <div class="position-relative mb-4">

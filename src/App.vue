@@ -4,7 +4,7 @@ import {settings} from "./stores/settings";
 import {sizes, ratios, colors, types, fileTypes, licenses} from "./data/filters";
 import Dropdown from "./components/Dropdown.vue";
 import Settings from "./components/Settings.vue";
-import i18n from "@/i18n";
+import i18n from "./i18n";
 
 const hasSelected = ref(false);
 
@@ -86,9 +86,9 @@ settings.save();
     <div class="row h-100 align-items-center justify-content-center">
       <form @submit.prevent="handleSubmit" class="col-12 col-lg-9 col-xl-9">
         <div class="text-center">
-          <a href="/" title="Better Google Image Search" class="goglapp">
-            <img v-if="settings.isDark" src="./assets/images/gogl-logo-light.svg" class="img-fluid mb-4 mb-lg-5" alt="">
-            <img v-if="!settings.isDark" src="./assets/images/gogl-logo-dark.svg" class="img-fluid mb-4 mb-lg-5" alt="">
+          <a href="/" title="Better Google Image Search" class="logo">
+            <img v-if="settings.isDark" src="./assets/images/logo-light.svg" class="img-fluid mb-4" alt="">
+            <img v-if="!settings.isDark" src="./assets/images/logo-dark.svg" class="img-fluid mb-4" alt="">
           </a>
         </div>
         <div class="position-relative mb-4">
@@ -134,9 +134,8 @@ settings.save();
 
   <div class="text-center position-absolute bottom-0 left-0 w-100 py-3">
     <div>
-      <a href="https://6harf.com/?utm_source=gogl.app&utm_medium=footer" title="web tasarım" target="_blank">
-        <img v-if="settings.isDark" src="./assets/images/6harf-logo-light.svg" class="me-3" alt="web tasarım">
-        <img v-if="!settings.isDark" src="./assets/images/6harf-logo-dark.svg" class="me-3" alt="web tasarım">
+      <a href="https://github.com/ilyasozkurt" title="İlyas Özkurt" class="text-decoration-none" target="_blank">
+        <img src="./assets/images/ilyas-ozkurt.jpeg" class="avatar rounded me-2" alt="İlyas Özkurt"> İlyas Özkurt
       </a>
     </div>
     <div class="mt-3">

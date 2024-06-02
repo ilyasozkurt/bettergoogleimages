@@ -59,16 +59,10 @@ input::-ms-clear {
 }
 
 .logo {
-  position: fixed;
-  left: 15px;
-  bottom: 15px;
-  color: rgba(255, 255, 255, .5);
-  width: 100%;
-}
-
-.goglapp {
-  width: 400px;
-  display: inline-block;
+  @extend .d-flex, .align-items-center, .justify-content-center, .w-100;
+  img {
+    max-width: 450px;
+  }
 }
 
 .extra-filters {
@@ -121,6 +115,13 @@ input::-ms-clear {
   }
 }
 
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+
 @media (max-width: 425px) {
 
   .goglapp {
@@ -129,14 +130,6 @@ input::-ms-clear {
 
   .input-search {
     font-size: 20px;
-  }
-
-  .logo {
-    left: 0
-  }
-
-  .logo .text {
-    width: 100%;
   }
 
 }

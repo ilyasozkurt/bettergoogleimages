@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {settings} from "@/stores/settings";
-import {computed, onMounted, ref} from "vue";
-import {Modal} from "bootstrap";
+import {onMounted, ref} from "vue";
+import Modal from "bootstrap/js/dist/modal";
 import Dropdown from "@/components/Dropdown.vue";
 import languages from '@/data/languages'
 

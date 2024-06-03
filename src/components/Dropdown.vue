@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import {ref, toRefs, watch, computed} from 'vue';
+import {ref, toRefs, watch, computed, onMounted} from 'vue';
+import Dropdown from "bootstrap/js/dist/dropdown";
 import {settings} from "@/stores/settings";
 
 // Define the props
@@ -69,6 +70,17 @@ const selectOption = (option) => {
 // Define the filterOptions method (optional since filtering is handled by computed property)
 const filterOptions = () => {
 };
+
+const dropdownInstance = ref(null);
+
+const initDropdown = () => {
+  const dropdown = new Dropdown(dropdownInstance.value);
+};
+
+onMounted(() => {
+  initDropdown();
+});
+
 </script>
 
 <template>
@@ -78,6 +90,7 @@ const filterOptions = () => {
         :class="{'btn-outline-light': settings.isDark, 'btn-outline-dark': !settings.isDark, [buttonClass]: buttonClass}"
         role="button"
         data-bs-toggle="dropdown"
+        ref="dropdownInstance"
         aria-expanded="false">
       {{ $t(selectedOption.label) }}
     </div>
@@ -101,3 +114,11 @@ const filterOptions = () => {
     </div>
   </div>
 </template>
+
+<style scoped>
+.dropdown-toggle {
+  &:after {
+    margin-left: .7rem;
+  }
+}
+</style>

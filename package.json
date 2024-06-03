@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "typed.js": "^2.1.0",
     "vue": "^3.4.21",
     "vue-i18n": "^9.13.1"
   },

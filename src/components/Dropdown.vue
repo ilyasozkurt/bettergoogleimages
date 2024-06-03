@@ -29,7 +29,7 @@ const props = defineProps({
 });
 
 // Define the emits
-const emit = defineEmits(['update:modelValue']);
+const emit = defineEmits(['update:modelValue', 'select']);
 
 // Destructure props
 const {modelValue, options, defaultSelected} = toRefs(props);
@@ -65,6 +65,7 @@ const selectOption = (option) => {
   selectedOption.value = option;
   searchQuery.value = '';
   emit('update:modelValue', option);
+  emit('select', option);
 };
 
 // Define the filterOptions method (optional since filtering is handled by computed property)

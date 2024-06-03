@@ -4,6 +4,7 @@ import {onMounted, ref} from "vue";
 import Modal from "bootstrap/js/dist/modal";
 import Dropdown from "@/components/Dropdown.vue";
 import languages from '@/data/languages'
+import appRouter from "@/router";
 
 const unsavedIsDark = settings.isDark;
 const unsavedKeepFilters = settings.keepFilters;
@@ -32,12 +33,20 @@ onMounted(() => {
   initModal();
 });
 
+const handleLanguageChange = (selectedLanguage) => {
+  settings.language = selectedLanguage;
+  //get route name
+  const routeName = appRouter.currentRoute.value.name;
+  //reload the page
+  appRouter.push({name: routeName, params: {lang: selectedLanguage.value}});
+};
+
 </script>
 
 <template>
   <div class="preferences">
     <div>
-      <Dropdown :options="languages" v-model="settings.language" dropdown-class="dropdown-menu-end" :defaultSelected="settings.language"/>
+      <Dropdown :options="languages" v-model="settings.language" @select="handleLanguageChange" dropdown-class="dropdown-menu-end"  :defaultSelected="settings.language"/>
     </div>
     <button class="btn btn-default settings" data-bs-toggle="modal" data-bs-target="#settings">
       <img v-if="settings.isDark" src="../assets/images/cog-light.svg" class="img-fluid" :alt="$t('settings')">

@@ -45,4 +45,6 @@ export default {
     "about": "About",
     "close": "Close",
     "save": "Save",
+    "home_meta_title": "Better Google Image Search",
+    "home_meta_description": "Experience a better way to search Google Images with our intuitive and feature-rich image search client. Explore high-quality images with ease and discover the visual content you're looking for effortlessly.",
 }

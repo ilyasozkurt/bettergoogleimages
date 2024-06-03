@@ -44,5 +44,7 @@ export default {
     "settings": "Paramètres",
     "about": "À propos",
     "close": "Fermer",
-    "save": "Sauvegarder"
+    "save": "Sauvegarder",
+    "home_meta_title": "Meilleure Recherche d'Images Google",
+    "home_meta_description": "Découvrez une meilleure façon de rechercher des images Google avec notre client de recherche d'images intuitif et riche en fonctionnalités. Explorez des images de haute qualité facilement et découvrez le contenu visuel que vous recherchez sans effort.",
 }

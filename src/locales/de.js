@@ -44,5 +44,7 @@ export default {
     "settings": "Einstellungen",
     "about": "Über",
     "close": "Schließen",
-    "save": "Speichern"
+    "save": "Speichern",
+    "home_meta_title": "Bessere Google Bildersuche",
+    "home_meta_description": "Erleben Sie eine bessere Möglichkeit, Google Bilder mit unserem intuitiven und funktionsreichen Bildersuchclient zu durchsuchen. Entdecken Sie hochwertige Bilder mühelos und finden Sie den visuellen Inhalt, den Sie suchen, mühelos."
 }

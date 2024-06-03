@@ -22,6 +22,7 @@ const savedLanguage = savedSettings.language || defaultLanguage;
 
 export const settings = reactive({
     language: savedLanguage,
+    defaultLanguage,
     isDark: savedSettings.isDark || false,
     keepFilters: savedSettings.keepFilters || false,
     filters: savedFilters,

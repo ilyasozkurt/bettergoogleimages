@@ -45,4 +45,6 @@ export default {
     "about": "Hakkında",
     "close": "Kapat",
     "save": "Kaydet",
+    "home_meta_title": "Daha İyi Google Resim Arama",
+    "home_meta_description": "Kullanıcı dostu ve özellik zengin resim arama istemcimizle Google Resimler'de arama yapmanın daha iyi bir yolunu deneyimleyin. Yüksek kaliteli resimleri kolayca keşfedin ve aradığınız görsel içeriği zahmetsizce bulun.",
 }

@@ -44,5 +44,7 @@ export default {
     "settings": "Configuraciones",
     "about": "Acerca de",
     "close": "Cerrar",
-    "save": "Guardar"
+    "save": "Guardar",
+    "home_meta_title": "Mejor búsqueda de imágenes en Google",
+    "home_meta_description": "Experimenta una mejor manera de buscar imágenes en Google con nuestro cliente de búsqueda de imágenes intuitivo y rico en funciones. Explora imágenes de alta calidad con facilidad y descubre el contenido visual que buscas sin esfuerzo.",
 }

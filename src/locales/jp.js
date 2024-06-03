@@ -44,5 +44,7 @@ export default {
     "settings": "設定",
     "about": "情報",
     "close": "閉じる",
-    "save": "保存"
+    "save": "保存",
+    "home_meta_title": "Google画像検索をより良く",
+    "home_meta_description": "直感的で機能豊富な画像検索クライアントでGoogle画像を検索するより良い方法を体験してください。高品質の画像を簡単に探索し、探している視覚コンテンツを簡単に見つけてください。",
 }

@@ -44,5 +44,7 @@ export default {
     "settings": "设置",
     "about": "关于",
     "close": "关闭",
-    "save": "保存"
+    "save": "保存",
+    "home_meta_title": "更好的 Google 图片搜索",
+    "home_meta_description": "通过我们直观且功能丰富的图片搜索客户端体验更好的搜索 Google 图片的方式。轻松探索高质量图片，轻松发现您正在寻找的视觉内容。",
 }

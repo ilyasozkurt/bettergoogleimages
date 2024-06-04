@@ -57,23 +57,12 @@ const currentYear = computed(() => {
   return new Date().getFullYear();
 });
 
-const initializeDarkMode = () => {
-  //data-bs-theme=dark
-  if (settings.isDark) {
-    document.body.setAttribute('data-bs-theme', 'dark');
-  } else {
-    document.body.removeAttribute('data-bs-theme');
-  }
-};
-
-initializeDarkMode();
-
 watch(settings, (settings) => {
 
   if (settings.isDark) {
-    document.body.setAttribute('data-bs-theme', 'dark');
+    document.documentElement.setAttribute('data-bs-theme', 'dark');
   } else {
-    document.body.removeAttribute('data-bs-theme');
+    document.documentElement.removeAttribute('data-bs-theme');
   }
 
   //set language from settings to i18n

@@ -11,21 +11,29 @@
     <link rel="preload" href="src/assets/images/logo.svg" as="image">
     <title>Better Google Images Search</title>
     <meta name="description" content="Experience a better way to search Google Images with our intuitive and feature-rich image search client. Explore high-quality images with ease and discover the visual content you're looking for effortlessly."/>
-    <!-- Google tag (gtag.js) -->
-    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-BWV1DVVNQN"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
+        const savedSettings = JSON.parse(localStorage.getItem('settings') || '{}');
+        if (savedSettings.isDark) {
+            document.documentElement.setAttribute('data-bs-theme', 'dark');
+        } else {
+            document.documentElement.removeAttribute('data-bs-theme');
         }
-
-        gtag('js', new Date());
-        gtag('config', 'G-BWV1DVVNQN');
     </script>
 </head>
 <body>
 <div id="app"></div>
 <script type="module" src="/src/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-BWV1DVVNQN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-BWV1DVVNQN');
+</script>
 </body>
 </html>

@@ -86,6 +86,6 @@ export default {
         "<p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Yeni Gizlilik Politikasını bu sayfada yayınlayarak ve bu Gizlilik Politikasının üst kısmındaki \"Geçerlilik Tarihini\" güncelleyerek herhangi bir değişiklik konusunda sizi bilgilendireceğiz. Herhangi bir değişiklik olup olmadığını görmek için bu Gizlilik Politikasını düzenli aralıklarla incelemeniz önerilir.</p>\n" +
         "<h2>Bize Ulaşın</h2>\n" +
         "<p>Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa lütfen bizimle şu adresten iletişime geçin:</p>\n" +
-        "<p>E-posta: ilyasozkurt@gmail.com</p>\n" +
+        "<p>E-posta: ilyasozkurt[at]gmail.com</p>\n" +
         "<p>Sitemizi kullanarak Gizlilik Politikamızı kabul etmiş olursunuz.</p>"
 }

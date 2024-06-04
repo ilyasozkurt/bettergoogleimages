@@ -86,6 +86,6 @@ export default {
         "<p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Effective Date\" at the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes.</p>\n" +
         "<h2>Contact Us</h2>\n" +
         "<p>If you have any questions about this Privacy Policy, please contact us at:</p>\n" +
-        "<p>Email: ilyasozkurt@gmail.com</p>\n" +
+        "<p>Email: ilyasozkurt[at]gmail.com</p>\n" +
         "<p>By using our Site, you consent to our Privacy Policy.</p>"
 }

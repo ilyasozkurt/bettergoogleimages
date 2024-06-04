@@ -86,6 +86,6 @@ export default {
         "<p>Podemos atualizar esta Política de Privacidade de tempos em tempos. Iremos notificá-lo sobre quaisquer alterações publicando a nova Política de Privacidade nesta página e atualizando a “Data de Vigência” no topo desta Política de Privacidade. Aconselhamos que você revise esta Política de Privacidade periodicamente para quaisquer alterações.</p>\n" +
         "<h2>Entre em contato conosco</h2>\n" +
         "<p>Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco:</p>\n" +
-        "<p>E-mail: ilyasozkurt@gmail.com</p>\n" +
+        "<p>E-mail: ilyasozkurt[at]gmail.com</p>\n" +
         "<p>Ao usar nosso Site, você concorda com nossa Política de Privacidade.</p>"
 }

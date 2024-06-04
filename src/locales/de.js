@@ -86,6 +86,6 @@ export default {
         "<p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über alle Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen und das „Datum des Inkrafttretens“ oben in dieser Datenschutzrichtlinie aktualisieren. Es wird empfohlen, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen.</p>\n" +
         "<h2>Kontaktieren Sie uns</h2>\n" +
         "<p>Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:</p>\n" +
-        "<p>E-Mail: ilyasozkurt@gmail.com</p>\n" +
+        "<p>E-Mail: ilyasozkurt[at]gmail.com</p>\n" +
         "<p>Indem Sie unsere Website nutzen, stimmen Sie unserer Datenschutzrichtlinie zu.</p>"
 }

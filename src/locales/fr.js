@@ -86,6 +86,6 @@ export default {
         "<p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page et en mettant à jour la «Date d'entrée en vigueur» en haut de cette politique de confidentialité. Il vous est conseillé de consulter périodiquement cette politique de confidentialité pour tout changement.</p>\n" +
         "<h2>Contactez-nous</h2>\n" +
         "<p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à:</p>\n" +
-        "<p>E-mail: ilyasozkurt@gmail.com</p>\n" +
+        "<p>E-mail: ilyasozkurt[at]gmail.com</p>\n" +
         "<p>En utilisant notre site, vous consentez à notre politique de confidentialité.</p>"
 }

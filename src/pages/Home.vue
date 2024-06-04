@@ -15,6 +15,10 @@ const clearSelection = () => {
 
 const handleSubmit = () => {
 
+  if (!settings.filters.queryValue) {
+    return;
+  }
+
   const searchUrlBase = "https://www.google.com/search?tbm=isch&safe=images";
   const selectedSizeQuery = settings.filters.selectedSizeWidth && settings.filters.selectedSizeHeight ? settings.filters.selectedSizeWidth + "x" + settings.filters.selectedSizeHeight : "";
   const searchUrl = searchUrlBase + "&imgsz=" + settings.filters.selectedSize.value + "&imgtype=" + settings.filters.selectedType.value + "&imgc=" + settings.filters.selectedColor.value + "&imgcolor=" + settings.filters.selectedColor.value + "&imgar=" + settings.filters.selectedRatio.value + "&as_filetype=" + settings.filters.selectedFileType.value + "&as_rights=" + settings.filters.selectedLicense.value + "&q=" + settings.filters.queryValue + "%20" + selectedSizeQuery;

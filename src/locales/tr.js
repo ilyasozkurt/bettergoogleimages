@@ -87,5 +87,6 @@ export default {
         "<h2>Bize Ulaşın</h2>\n" +
         "<p>Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa lütfen bizimle şu adresten iletişime geçin:</p>\n" +
         "<p>E-posta: ilyasozkurt[at]gmail.com</p>\n" +
-        "<p>Sitemizi kullanarak Gizlilik Politikamızı kabul etmiş olursunuz.</p>"
+        "<p>Sitemizi kullanarak Gizlilik Politikamızı kabul etmiş olursunuz.</p>",
+    "source_code": "Kaynak Kodu"
 }

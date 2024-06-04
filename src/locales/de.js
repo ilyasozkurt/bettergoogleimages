@@ -87,5 +87,6 @@ export default {
         "<h2>Kontaktieren Sie uns</h2>\n" +
         "<p>Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:</p>\n" +
         "<p>E-Mail: ilyasozkurt[at]gmail.com</p>\n" +
-        "<p>Indem Sie unsere Website nutzen, stimmen Sie unserer Datenschutzrichtlinie zu.</p>"
+        "<p>Indem Sie unsere Website nutzen, stimmen Sie unserer Datenschutzrichtlinie zu.</p>",
+    "source_code": "Quellcode"
 }

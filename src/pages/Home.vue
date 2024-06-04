@@ -141,9 +141,12 @@ settings.save();
       </a>
       © {{ currentYear }} {{ $t('all_rights_reserved') }}
     </div>
-    <div>
-      <a href="#" data-bs-toggle="modal" data-bs-target="#privacy_policy_modal">
+    <div class="d-flex justify-content-center">
+      <a href="#" class="me-3" data-bs-toggle="modal" data-bs-target="#privacy_policy_modal">
         {{ $t('privacy_policy') }}
+      </a>
+      <a href="https://github.com/ilyasozkurt/bettergoogleimages" rel="nofollow" target="_blank">
+        {{ $t('source_code') }}
       </a>
     </div>
   </div>

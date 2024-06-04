@@ -87,5 +87,6 @@ export default {
         "<h2>Contact Us</h2>\n" +
         "<p>If you have any questions about this Privacy Policy, please contact us at:</p>\n" +
         "<p>Email: ilyasozkurt[at]gmail.com</p>\n" +
-        "<p>By using our Site, you consent to our Privacy Policy.</p>"
+        "<p>By using our Site, you consent to our Privacy Policy.</p>",
+    "source_code": "Source Code"
 }

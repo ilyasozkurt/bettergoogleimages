@@ -87,5 +87,6 @@ export default {
         "<h2>Entre em contato conosco</h2>\n" +
         "<p>Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco:</p>\n" +
         "<p>E-mail: ilyasozkurt[at]gmail.com</p>\n" +
-        "<p>Ao usar nosso Site, você concorda com nossa Política de Privacidade.</p>"
+        "<p>Ao usar nosso Site, você concorda com nossa Política de Privacidade.</p>",
+    "source_code": "Código Fonte"
 }

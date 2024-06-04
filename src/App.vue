@@ -7,8 +7,4 @@ import PrivacyPolicy from "@/components/PrivacyPolicy.vue";
 
   <router-view/>
 
-  <Settings/>
-
-  <PrivacyPolicy/>
-
 </template>

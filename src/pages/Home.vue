@@ -148,4 +148,8 @@ settings.save();
     </div>
   </div>
 
+  <Settings/>
+
+  <PrivacyPolicy/>
+
 </template>

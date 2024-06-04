@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Settings from "./components/Settings.vue";
+import PrivacyPolicy from "@/components/PrivacyPolicy.vue";
 </script>
 
 <template>
@@ -7,5 +8,7 @@ import Settings from "./components/Settings.vue";
   <router-view/>
 
   <Settings/>
+
+  <PrivacyPolicy/>
 
 </template>

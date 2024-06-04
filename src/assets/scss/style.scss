@@ -105,9 +105,10 @@ input::-ms-clear {
 
   .settings {
     @extend .ms-2;
+
     img {
-        width: 24px;
-        height: 24px;
+      width: 24px;
+      height: 24px;
     }
   }
 }
@@ -118,6 +119,38 @@ input::-ms-clear {
   border-radius: 50%;
 }
 
+.content-style {
+
+  h1, h2, h3, h4 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.8;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+}
 
 @media (max-width: 425px) {
 

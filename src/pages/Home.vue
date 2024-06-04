@@ -5,6 +5,7 @@ import {sizes, ratios, colors, types, fileTypes, licenses} from "@/data/filters"
 import Dropdown from "@/components/Dropdown.vue";
 import Settings from "@/components/Settings.vue";
 import i18n from "@/i18n";
+import PrivacyPolicy from "@/components/PrivacyPolicy.vue";
 
 const hasSelected = ref(false);
 
@@ -134,16 +135,17 @@ settings.save();
   </div>
 
   <div class="text-center position-absolute bottom-0 left-0 w-100 py-3">
-    <div>
-      <a href="https://github.com/ilyasozkurt" title="İlyas Özkurt" class="text-decoration-none" target="_blank">
+    <div class="mb-3">
+      <a href="https://github.com/ilyasozkurt" title="İlyas Özkurt" class="text-decoration-none me-1 border-end" target="_blank">
         <img src="@/assets/images/ilyas-ozkurt.jpeg" class="avatar rounded me-2" alt="İlyas Özkurt"> İlyas Özkurt
       </a>
-    </div>
-    <div class="mt-3">
       © {{ currentYear }} {{ $t('all_rights_reserved') }}
     </div>
+    <div>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#privacy_policy_modal">
+        {{ $t('privacy_policy') }}
+      </a>
+    </div>
   </div>
-
-  <Settings/>
 
 </template>

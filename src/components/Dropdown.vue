@@ -87,8 +87,8 @@ onMounted(() => {
 <template>
   <div class="dropdown">
     <div
-        class="btn dropdown-toggle"
-        :class="{'btn-outline-light': settings.isDark, 'btn-outline-dark': !settings.isDark, [buttonClass]: buttonClass}"
+        class="btn btn-outline-primary dropdown-toggle"
+        :class="{[buttonClass]: buttonClass}"
         role="button"
         data-bs-toggle="dropdown"
         ref="dropdownInstance"

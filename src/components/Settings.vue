@@ -77,7 +77,7 @@ const handleLanguageChange = (selectedLanguage) => {
           </div>
         </div>
         <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-outline-dark" @click="handleClose">
+          <button type="button" class="btn" :class="{'btn-outline-light': settings.isDark, 'btn-outline-dark': !settings.isDark}" @click="handleClose">
             {{ $t('close') }}
           </button>
           <button type="button" @click="handleSave" class="btn btn-success">

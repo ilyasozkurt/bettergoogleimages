@@ -106,7 +106,7 @@ settings.save();
           <div class="extra-filter">
             <div class="input-group">
               <Dropdown :options="sizes" :default-selected="settings.filters.selectedSize" v-model="settings.filters.selectedSize"/>
-              <div class="size-container ms-3" v-if="settings.filters.value === 'custom'">
+              <div class="size-container ms-2" v-if="settings.filters.selectedSize.value === 'custom'">
                 <input type="text" v-model="settings.filters.selectedSizeWidth" class="form-control" :placeholder="$t('width')">
                 <input type="text" v-model="settings.filters.selectedSizeHeight" class="form-control" :placeholder="$t('height')">
               </div>

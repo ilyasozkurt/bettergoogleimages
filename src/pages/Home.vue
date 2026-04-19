@@ -148,6 +148,9 @@ settings.save();
       <a href="https://github.com/ilyasozkurt/bettergoogleimages" rel="nofollow" target="_blank">
         {{ $t('source_code') }}
       </a>
+      <a href="https://uptimetick.com" class="ms-3" rel="nofollow" target="_blank">
+        UptimeTick
+      </a>
     </div>
   </div>
 

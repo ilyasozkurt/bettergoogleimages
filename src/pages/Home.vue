@@ -151,6 +151,9 @@ settings.save();
       <a href="https://uptimetick.com" class="ms-3" rel="nofollow" target="_blank">
         UptimeTick
       </a>
+      <a href="https://minitankmobile.com/en?utm_source=bettergoogleimages&utm_medium=referral&utm_campaign=footer" class="ms-3" rel="nofollow" target="_blank">
+        Mini Tank Mobile
+      </a>
     </div>
   </div>
 

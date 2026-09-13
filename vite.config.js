@@ -24,4 +24,17 @@ export default defineConfig({
             '@': fileURLToPath(new URL('./src', import.meta.url))
         }
     },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                // Bootstrap still uses legacy Sass APIs; silence until they migrate
+                silenceDeprecations: [
+                    'import',
+                    'global-builtin',
+                    'color-functions',
+                    'if-function',
+                ],
+            },
+        },
+    },
 })
